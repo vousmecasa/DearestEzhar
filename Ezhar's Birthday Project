@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 20th Birthday, Ezhar!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #d81b60;
+            animation: fadeIn 3s ease-in-out;
+        }
+        p {
+            font-size: 1.5em;
+            color: #8e24aa;
+            animation: fadeIn 4s ease-in-out;
+        }
+        .heart {
+            font-size: 4em;
+            color: #d81b60;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy 20th Birthday, Ezhar!</h1>
+    <p>You're turning 20 on February 1st, and I just wanted to tell you how much you mean to me.</p>
+    <p class="heart">❤️</p>
+    <p>I hope this year is filled with love, laughter, and all your heart’s desires. I love you more than words can say!</p>
+    <p>🎉🎂 Enjoy your special day, my love! 🎂🎉</p>
+</body>
+</html>
